@@ -7,7 +7,7 @@ import sys
 # Load the pre-trained MobileNet SSD model
 def load_model():
     try:
-        model_path="../object_detection/ssd-mobilenet-v2-tensorflow2-ssd-mobilenet-v2-v1"
+        model_path="../object_detection_model/ssd-mobilenet-v2-tensorflow2-ssd-mobilenet-v2-v1"
         model = hub.load(model_path)
         print("Model loaded successfully!")
         return model
